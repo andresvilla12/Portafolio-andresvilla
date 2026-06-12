@@ -12,6 +12,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.4.2"
+    "@astrojs/tailwind": "5",
+    "@fontsource-variable/onest": "^5.2.11",
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.4.2",
+    "astro-robots-txt": "^1.0.0",
+    "tailwindcss": "3"
   }
 }

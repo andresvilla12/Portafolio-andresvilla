@@ -1,0 +1,46 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+import experience from "@/data/experience.json"
+
+const trabajos = experience.filter((exp) => exp.type === "trabajo")
+const certificados = experience.filter((exp) => exp.type === "certificado")
+const educacion = experience.filter((exp) => exp.type === "educacion")
+---
+
+<section>
+  <ol class="relative mt-16" aria-label="Experiencia laboral">
+    {
+      trabajos.map((exp, i) => (
+        <li class="anim-fade-in" style={`animation-delay: ${i * 150}ms`}>
+          <ExperienceItem {...exp} />
+        </li>
+      ))
+    }
+  </ol>
+
+  <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mt-16 mb-4">
+    🎓 Formación académica
+  </h3>
+  <ol class="relative" aria-label="Formación académica">
+    {
+      educacion.map((exp, i) => (
+        <li class="anim-fade-in" style={`animation-delay: ${i * 150}ms`}>
+          <ExperienceItem {...exp} />
+      </li>
+      ))
+    }
+  </ol>
+
+  <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100 mt-16 mb-4">
+    📝 Certificados
+  </h3>
+  <ol class="relative" aria-label="Certificados">
+    {
+      certificados.map((exp, i) => (
+        <li class="anim-fade-in" style={`animation-delay: ${i * 150}ms`}>
+          <ExperienceItem {...exp} />
+        </li>
+      ))
+    }
+  </ol>
+</section>

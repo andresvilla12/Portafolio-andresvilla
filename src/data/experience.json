@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Practicante Tecnología en Desarrollo de Software",
+    "company": "Logistic Negotium S.A.S.",
+    "date": "Octubre 2024 - Abril 2025",
+    "type": "trabajo",
+    "description": "Desarrollé módulos full stack para la aplicación Be Cool (Facturación, Call Center, Recepción y vista del Doctor), brindando soporte a 5 sedes. Trabajé con React, Node.js (Express), MySQL y Firebird bajo metodología Scrum con JIRA.",
+    "link": ""
+  },
+  {
+    "title": "Desarrollador de Software",
+    "company": "Be Bolder",
+    "date": "Septiembre 2023 - Mayo 2024",
+    "type": "trabajo",
+    "description": "Participé en el desarrollo front y back de una célula interna, aplicando patrones de diseño, pruebas unitarias y automatización de pruebas. Trabajé con React, JavaScript, HTML5, CSS, GitLab y SonarQube bajo metodología Scrum.",
+    "link": ""
+  },
+  {
+    "title": "Ingeniería en Sistemas",
+    "company": "Institución Universitaria ITM",
+    "date": "2026 - Actualidad",
+    "description": "Cursando 9° semestre. Formación en desarrollo de software, algoritmos, bases de datos, análisis de datos, redes y arquitectura de sistemas.",
+    "type": "educacion",
+    "link": ""
+  },
+  {
+    "title": "Tecnólogo en Desarrollo de Software",
+    "company": "Institución Universitaria ITM",
+    "date": "2021 - 2025",
+    "description": "Título obtenido con enfoque en programación, bases de datos, análisis de datos, automatización de pruebas, desarrollo front y back.",
+    "type": "educacion",
+    "link": ""
+  },
+  {
+    "title": "Ruta Talento Especializado - Desarrollo de Software",
+    "company": "IU Digital de Antioquia · SAPIENCIA",
+    "date": "Noviembre 2021",
+    "type": "certificado",
+    "description": "Programa de 5 meses formativos en desarrollo de software, nivel inicial, liderado por SAPIENCIA y la Alcaldía de Medellín.",
+    "link": "/certificates/ruta-talento.png"
+  },
+  {
+    "title": "Bootcamp Desarrollador FullStack",
+    "company": "Sophos Solutions · Ruta N",
+    "date": "2022",
+    "type": "certificado",
+    "description": "Bootcamp intensivo de 3 meses en desarrollo FullStack, avalado por Ruta N y la Alcaldía de Medellín.",
+    "link": "/certificates/bootcamp-fullstack.png"
+  },
+  {
+    "title": "Introducción al Diseño y Ejecución de Proyectos",
+    "company": "IU Digital de Antioquia",
+    "date": "Diciembre 2021",
+    "type": "certificado",
+    "description": "Curso de 48 horas sobre metodologías para el diseño y ejecución de proyectos.",
+    "link": "/certificates/diseno-proyectos.png"
+  }
+]

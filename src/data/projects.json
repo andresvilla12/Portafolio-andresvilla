@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Rick and Morty App",
+    "description": "Aplicación React.js que permite buscar personajes del popular programa 'Rick and Morty'. Consume la API oficial para obtener datos de los personajes.",
+    "link": "https://app-rick-morty-andres-villa.netlify.app/",
+    "github": "https://github.com/andresvilla12/Rick-morty",
+    "image": "/projects/rick-morty.png",
+    "tags": ["HTML", "CSS", "JAVASCRIPT","REACT", "TAILWIND", "APIS", "GIT", "GITHUB"]
+  },
+  {
+    "title": "StyleConAndrés",
+    "description": "Tienda online moderna desarrollada con Angular. Ofrece ropa, accesorios, electrónica, muebles y zapatos. Consume la Platzi Fake Store API para mostrar productos reales con imágenes, precios y categorías.",
+    "link": "https://styleconandres.netlify.app/",
+    "github": "https://github.com/andresvilla12/StyleConAndres",
+    "image": "/projects/tienda-ropa.png",
+    "tags": ["ANGULAR", "TAILWIND", "TYPESCRIPT", "HTML", "CSS", "APIS", "GIT", "GITHUB"]
+  },
+  {
+    "title": "Poke Memory",
+    "description": "Juego de memoria con temática Pokémon desarrollado con React.js. Cuenta con 18 cartas con Pokémon aleatorios, temporizador, animación de confeti al ganar y consume la PokeAPI.",
+    "link": "https://poke-memory-andresvilla.netlify.app/",
+    "github": "https://github.com/andresvilla12/pokemon-memory-game",
+    "image": "/projects/poke-memory.png",
+    "tags": ["HTML", "CSS", "JAVASCRIPT", "REACT", "APIS", "GIT", "GITHUB"]
+  }
+
+
+
+
+
+
+]
+
+
+

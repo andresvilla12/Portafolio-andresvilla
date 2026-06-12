@@ -1,0 +1,53 @@
+---
+import HTML from "./icons/HTML.astro"
+import CSS from "./icons/CSS.astro"
+import JavaScript from "./icons/JavaScript.astro"
+import ReactIcon from "./icons/React.astro"
+import Angular from "./icons/Angular.astro"
+import NextJS from "./icons/NextJS.astro"
+import Tailwind from "./icons/Tailwind.astro"
+import Git from "./icons/Git.astro"
+import GitHub from "./icons/GitHub.astro"
+import Python from "./icons/Python.astro"
+import Node from "./icons/Node.astro"
+import Express from "./icons/Express.astro"
+import MySQL from "./icons/MySQL.astro"
+import MongoDB from "./icons/MongoDB.astro"
+import Java from "./icons/Java.astro"
+import Docker from "./icons/Docker.astro"
+import Jira from "./icons/Jira.astro"
+import PowerBI from "./icons/PowerBI.astro"
+import SQL from "./icons/SQL.astro"
+
+const SKILLS = [
+  { name: "HTML", class: "bg-[#E34F26] text-white", icon: HTML },
+  { name: "CSS", class: "bg-[#1572B6] text-white", icon: CSS },
+  { name: "Tailwind CSS", class: "bg-[#003159] text-white", icon: Tailwind },
+  { name: "JavaScript", class: "bg-[#F7DF1E] text-black", icon: JavaScript },
+  { name: "React", class: "bg-[#149eca] text-white", icon: ReactIcon },
+  { name: "Angular", class: "bg-red-100 text-red-800", icon: Angular },
+  { name: "Node.js", class: "bg-[#339933] text-white", icon: Node },
+  { name: "Express.js", class: "bg-gray-600 text-white", icon: Express },
+  { name: "Python", class: "bg-[#3776AB] text-white", icon: Python },
+  { name: "Java", class: "bg-[#E76F00] text-white", icon: Java },
+  { name: "SQL", class: "bg-[#336791] text-white", icon: SQL },
+  { name: "MySQL", class: "bg-[#00758F] text-white", icon: MySQL },
+  { name: "MongoDB", class: "bg-[#47A248] text-white", icon: MongoDB },
+  { name: "Docker", class: "bg-[#2496ED] text-white", icon: Docker },
+  { name: "Jira", class: "bg-[#0052CC] text-white", icon: Jira },
+  { name: "Power BI", class: "bg-[#F2C811] text-black", icon: PowerBI },
+  { name: "Git", class: "bg-[#F05032] text-white", icon: Git },
+  { name: "GitHub", class: "bg-gray-800 text-white", icon: GitHub },
+]
+---
+
+<ul class="flex flex-row flex-wrap gap-3">
+  {SKILLS.map((skill) => (
+    <li>
+      <span class={`flex gap-x-2 rounded-full text-sm ${skill.class} py-2 px-4 items-center`}>
+        <skill.icon class="size-5" />
+        {skill.name}
+      </span>
+    </li>
+  ))}
+</ul>

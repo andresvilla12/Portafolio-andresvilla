@@ -1,0 +1,71 @@
+---
+const personalImageAlt = "Andrés Villa"
+import Badge from "@/components/Badge.astro"
+import GitHubIcon from "@/components/icons/GitHub.astro"
+import LinkedInIcon from "@/components/icons/LinkedIn.astro"
+import MailIcon from "@/components/icons/Mail.astro"
+import SparklesIcon from "@/components/icons/Sparkles.astro"
+import SocialPill from "@/components/SocialPill.astro"
+---
+
+<div class="max-w-xl">
+  <div class="anim-fade-in flex gap-4 mb-6 items-center">
+    <div class="relative flex-shrink-0">
+      <div
+        class="absolute inset-0 rounded-full bg-yellow-400/30 dark:bg-yellow-400/20 blur-xl scale-125"
+        aria-hidden="true"
+      >
+      </div>
+      <img
+        class="relative rounded-full shadow-2xl size-32 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
+        src="/andres.png"
+        alt={personalImageAlt}
+      />
+    </div>
+    
+      <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-villa-calder%C3%B3n-19711b159/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge><SparklesIcon class="size-3" /> Disponible para trabajar</Badge>
+    </a>
+  </div>
+
+  <h1
+    class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    Hola, soy <span class="gradient-name">Andrés Villa</span>
+  </h1>
+
+  <p
+    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+  >
+    <strong>Tecnólogo en Desarrollo de Software</strong><br/>
+    Ingeniería en Sistemas (9° semestre)<br/>
+    🌐 Medellín, Colombia
+  </p>
+  <p
+    class="mt-4 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+  >
+    Cuento con 1 año y 2 meses de experiencia en <strong>desarrollo frontend</strong> con React y Angular, automatización de pruebas, mesa de ayuda, análisis de datos con <strong>Power BI, Pandas, NumPy</strong> y manejo de bases de datos <strong>SQL, MySQL y MongoDB</strong>. Apasionado por las <strong>buenas prácticas</strong>, metodologías ágiles y la mejora continua.
+  </p>
+
+  <nav
+    class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
+    aria-label="Redes sociales y contacto"
+  >
+    <SocialPill href="mailto:villacalderon68@gmail.com">
+      <MailIcon class="size-4" />
+      Contáctame
+    </SocialPill>
+    <SocialPill href="https://www.linkedin.com/in/andr%C3%A9s-felipe-villa-calder%C3%B3n-19711b159/">
+      <LinkedInIcon class="size-4" />
+      LinkedIn
+    </SocialPill>
+    <SocialPill href="https://github.com/andresvilla12">
+      <GitHubIcon class="size-4" />
+      GitHub
+    </SocialPill>
+  </nav>
+</div>
