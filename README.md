@@ -15,6 +15,9 @@ Portafolio personal desarrollado con Astro y Tailwind CSS, donde presento mi exp
 
 🔗 [portafolio-andresvilla.vercel.app](https://portafolio-andresvilla.vercel.app)
 
+<img width="1610" height="942" alt="image" src="https://github.com/user-attachments/assets/5107c9cd-47bf-40c7-b7fc-f19bbb53278d" />
+
+
 ---
 
 ## 🚀 Tecnologías utilizadas
