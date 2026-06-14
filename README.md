@@ -1,46 +1,36 @@
-# Astro Starter Kit: Basics
+# 🧑‍💻 Portafolio Personal - Andrés Villa
 
-```sh
-bun create astro@latest -- --template basics
-```
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📌 Descripción
 
-## 🚀 Project Structure
+Portafolio personal desarrollado con Astro y Tailwind CSS, donde presento mi experiencia laboral, formación académica, proyectos personales y habilidades técnicas.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## 🌐 Demo en vivo
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+🔗 [portafolio-andresvilla.vercel.app](https://portafolio-andresvilla.vercel.app)
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 🚀 Tecnologías utilizadas
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+- **Astro 6** — Framework principal para sitios estáticos de alto rendimiento
+- **TypeScript** — Tipado estático para mayor robustez
+- **Tailwind CSS** — Estilos utilitarios con soporte dark mode
+- **Vercel** — Plataforma de despliegue continuo
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## ✨ Funcionalidades
+
+- 🌙 Modo oscuro / claro con toggle
+- 📜 Sección de experiencia laboral
+- 🎓 Formación académica y certificados
+- 🛠️ Skills con iconos personalizados
+- 💼 Proyectos con links a código y demo
+---
